@@ -1,0 +1,58 @@
+.dashboard-page {
+  min-height: 100vh;
+  padding: 16px;
+  background: #f5f5f5;
+}
+
+.dashboard-card {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.work-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.work-actions button {
+  width: 100%;
+  padding: 16px;
+  font-size: 1rem;
+}
+
+.work-message {
+  margin-top: 16px;
+}
+
+@media (min-width: 600px) {
+  .work-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.today-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.week-summary {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #f7f7f7;
+}
+
+.week-summary h3 {
+  margin-top: 0;
+}
+
+.week-summary p {
+  margin: 6px 0;
+}
